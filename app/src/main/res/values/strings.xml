@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Aplikasi Belajar Shalat Jenazah</string>
+    <string name="title_activity_hal_00home">hal_00home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

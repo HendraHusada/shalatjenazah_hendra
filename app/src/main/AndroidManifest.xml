@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hendra.shalatjenazah">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Aplikasi Belajar Shalat Jenazah"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true">
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".IntroActivity"
+            android:label="Fitur Baru!"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".hal_00home"
+            android:label="Aplikasi Tata Cara Shalat Jenazah"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".hal_01hukum"
+            android:label="Hukum Shalat Jenazah"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".hal_02syarat"
+            android:label="Syarat Shalat Jenazah"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".hal_03rukun"
+            android:label="Rukun Shalat Jenazah"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".hal_04cewekcowok"
+            android:label="Pilihan Bacaan Shalat"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".hal_04shalatcowok"
+            android:label="Bacaan Shalat Jenazah"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".hal_04shalatcewek"
+            android:label="Bacaan Shalat Jenazah"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".hal_07about"
+            android:label="About"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".hal_06evaluasi"
+            android:label="Evaluasi"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".hal_06hasil_nilai"
+            android:label="Nilai"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+        </activity>
+    </application>
+
+</manifest>
